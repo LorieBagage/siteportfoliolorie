@@ -1,0 +1,95 @@
+
+body{
+    background-color: beige;
+    margin: 0px;
+}
+.logo{
+    height: 200px;
+    padding-left: 550px;
+    padding-top: 0px;
+    margin-top:0px;
+    position: absolute;
+}
+#menu{
+    padding: 50px; 
+    margin: 0; 
+	text-align: middle;
+    display: flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	height: 50px;
+    text-align:center;
+	border-width: 2px;
+	margin-bottom: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: absolute;
+    padding-top: 150px;
+}
+
+#menu li{
+    display: inline;
+	list-style: none;
+}
+
+#menu a {
+	padding: 7px 30px;
+	font-weight: black;
+	text-decoration: none;
+	color: #000;
+	}        
+
+ul {
+	padding:0; 
+	margin:0;
+}
+
+.journal, .Photoshop, .dessin, .trait, .vidéos, .parfum, .chaines{
+    height:300px;
+}
+
+.Photoshop, .parfum{
+    padding-left: 150px;
+}
+
+.journal{
+    padding-left: 325px;
+}
+
+.dessin{
+    padding-left: 610px;
+}
+.vidéos{
+    padding-left: 780px;
+}
+
+.chaines{
+    padding-left: 800px;
+}
+
+.trait{
+    padding-left: 775px;
+}
+
+.Photoshop, .journal, .vidéos{
+    padding-top: 250px;
+    position: absolute;
+}
+
+.parfum, .dessin, .trait, .chaines{
+    padding-top: 600px;
+    position: absolute;
+}
+
+.qui{
+    padding-left: 400px;
+}
+
+.port{
+    padding-left: 300px;
+}
+
+.Contact{
+    padding-left: 350px;
+}

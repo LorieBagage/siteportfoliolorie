@@ -1,0 +1,66 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align:center;
+  }
+  
+li {
+    display: inline-block;
+  }
+
+li a {
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    color:black;
+  }
+
+.logo{
+    margin: auto;
+    display: flex;
+    width: 10%;
+}
+
+body{
+    background-color: beige;
+    font-family: "police", Arial, Helvetica, sans-serif;
+    margin:0px;  
+}
+
+.sidebar{
+    background: #ac9b83;
+    width: 300px;
+    height: 900px;
+    margin-left: 0px;
+    color: white;
+    position: absolute;
+  }
+  
+.s{
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    width: 1000px;
+    margin-left: -28%;
+    margin-top: 6%;
+    margin-bottom: 11%;
+  }
+
+@font-face {
+    font-family: police;
+    src: url(ERASLGHT.TTF);
+}
+
+.vidéo{
+  padding-left: 500px;
+  position: absolute;
+}
+
+.a{
+  text-align: center;
+  padding-top: 500px;
+  padding-left: 100px;
+}
