@@ -1,0 +1,75 @@
+
+body{
+    background-color: beige;
+    margin: 0px;
+    font-family: "police paragraphe", Arial, Helvetica, sans-serif;
+}
+.logo{
+    height: 200px;
+    padding-left: 550px;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+#menu{
+    padding: 50px; 
+    margin: 0; 
+	text-align: center;
+    display: flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	height: 50px;
+    text-align:center;
+	border-width: 2px;
+	margin-bottom: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: absolute;
+    padding-top: 150px;
+}
+
+#menu li{
+    display: inline;
+	list-style: none;
+}
+
+#menu a {
+	padding: 7px 30px;
+	font-weight: black;
+	text-decoration: none;
+	color: #000;
+}        
+
+ul {
+	padding:0; 
+	margin:0;
+}
+
+.nom{
+    background-color: chocolate;
+    transform: rotate(-90deg);
+    float:left;
+    color: white;
+    height: 550px;
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: police paragraphe;
+    src: url(ERASLGHT.TTF);
+}
+
+.journal, .chaines, .parfum{
+    height: 200px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-photoshop{
+ background-color:green;
+  text-align: center;
+  font-size: 50px;
+}

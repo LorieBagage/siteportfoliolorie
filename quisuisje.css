@@ -1,0 +1,95 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align:center;
+    
+  }
+  
+  li {
+    display: inline-block;
+  }
+  li a {
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    color:black;
+  }
+
+  .logo{
+    margin: auto;
+    display: flex;
+    width: 10%;
+}
+
+body{
+    background-color: beige;
+    font-family: "police", Arial, Helvetica, sans-serif;
+    margin:0px;
+    
+}
+
+.sidebar{
+    background: #ac9b83;
+    width: 300px;
+    height: 900px;
+    margin-left: 0px;
+    color: white;
+    position: absolute;
+  }
+  
+  .s{
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    width: 1000px;
+    margin-left: -28%;
+    margin-top: 6%;
+    margin-bottom: 11%;
+  }
+
+  @font-face {
+    font-family: police;
+    src: url(ERASLGHT.TTF);
+}
+
+.moi{
+    height: 400px;
+    padding-left: 500px;
+    position: absolute;
+}
+
+.texte{
+    padding-left: 800px;
+    padding-right: 300px;
+}
+
+.insta{
+    height: 40px;
+    left: 545px;
+    position: absolute;
+    top:695px;
+}
+
+.facebook{
+    height: 30px;
+    left: 500px;
+    position: absolute;
+    top:700px;
+}
+
+.linkedin{
+    height: 30px;
+    left: 600px;
+    position: absolute;
+    top: 700px;
+}
+
+.CV{
+    padding-left: 500px;
+    position: absolute;
+    top: 750px;
+    color: black;
+}
